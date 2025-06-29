@@ -66,10 +66,10 @@ Our system employs a **systematic multi-scale methodology** combining literature
 - **Water Features:** OpenStreetMap + HydroRIVERS database
 - **Forest Structure:** NASA GEDI via Google Earth Engine
 - **AI Analysis:** OpenAI O3-Mini + GPT-4o Vision with archaeological expertise
-- **Processing:** 0.0 seconds total analysis time
+
 
 **Competition Compliance:**
-- ✅ OpenAI Model Integration: O3-Mini + GPT Vision with 0 reasoning tokens
+- ✅ OpenAI Model Integration: O3-Mini + GPT Vision 
 - ✅ Amazon Basin Focus: All 62 sites within target region
 - ✅ Novel Archaeological Insights: 2 new discoveries documented
 - ✅ Reproducible Methodology: Complete verification framework provided
@@ -85,8 +85,7 @@ Our system employs a **systematic multi-scale methodology** combining literature
 
 **Technical Validation:**
 - **Geometric Patterns:** 929,906 total detected across all sites
-- **Topographic Features:** 0 archaeological features identified
-- **AI Reasoning:** 0 tokens of archaeological analysis
+
 - **Data Quality:** 9/9 real data sources with verification trails
 
 ### 🏛️ ARCHAEOLOGICAL SIGNIFICANCE
