@@ -1,0 +1,12 @@
+Method,Score,Confidence_Level,Category,Data_Source,Real_Data
+Geometric Analysis,0.764,High,Original,MODIS/Sentinel-2 Satellite,YES
+DEM/LiDAR Analysis,0.516,High,Original,OpenTopography SRTMGL1 DEM,YES
+NDVI Analysis,0.147,Low,Original,MODIS/Sentinel-2 Spectral Bands,YES
+Spectral Analysis,0.207,Low,Original,MODIS/Sentinel-2 Multispectral,YES
+Thermal Analysis,0.000,Minimal,Original,MODIS Thermal Bands,YES
+Soil Analysis,0.000,Minimal,Original,ISRIC SoilGrids Database,YES
+Spatial Analysis,0.592,High,Original,OpenTopography DEM Autocorrelation,YES
+AI Cultural Analysis,0.500,Medium,Original,OpenAI O3-Mini + Historical Analysis,NO
+GEDI Forest Structure,0.134,Low,Amazon,NASA GEDI LiDAR,YES
+Ethnobotanical Patterns,0.050,Minimal,Amazon,GBIF Biodiversity Database,YES
+Hydro Management,0.840,High,Amazon,HydroRIVERS + OpenStreetMap,YES

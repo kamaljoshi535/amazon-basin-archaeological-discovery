@@ -1,0 +1,276 @@
+{
+  "probability": 0.44354166666666667,
+  "classification": "DISCOVERY",
+  "analysis_timestamp": "2025-06-29T18:51:32.384081",
+  "site_info": {
+    "name": "Rond\u00f4nia Extension South",
+    "coords": [
+      -11.2,
+      -62.0
+    ],
+    "category": "discovery_target",
+    "description": "Southern extension of Rond\u00f4nia geoglyphs",
+    "cultural_context": "Potential earthwork extension",
+    "archaeological_evidence": "Unknown - expansion target",
+    "expected_geometric": "unknown",
+    "expected_dem": "unknown",
+    "priority": "discovery_potential",
+    "test_requirement": "discovery_potential",
+    "checkpoint_priority": "mock",
+    "source": "Grid analysis"
+  },
+  "is_discovery": true,
+  "visualization_metadata": {
+    "timestamp": "2025-06-29T18:51:32.384169",
+    "enabled_features": [
+      "tile_search",
+      "interactive_maps",
+      "visual_docs",
+      "terrain_3d"
+    ],
+    "processing_time": 0
+  },
+  "coordinates": [
+    -11.2,
+    -62.0
+  ],
+  "method_scores_detailed": {
+    "geometric": 0.7682488061030947,
+    "geometric_real": true,
+    "hough_lines": 16231,
+    "geometric_patterns": {
+      "parallel_score": 0.921,
+      "intersection_score": 0.95,
+      "regularity_score": 0.0,
+      "geometric_complexity": 0.875,
+      "archaeological_indicators": {
+        "enclosures": 0.8598653761701147,
+        "roads": 0.8596235587024865,
+        "defensive_works": 0.8623059400079486,
+        "plaza_boundaries": 0.7859811398588203
+      }
+    },
+    "analysis_method": "real_opentopography_srtm",
+    "working_url": "https://sentinel-cogs.s3.us-west-2.amazonaws.com/sentinel-s2-l2a-cogs/20/L/PN/2024/6/S2A_20LPN_20240615_0_L2A/TCI.tif",
+    "lidar": 0.4827595151869172,
+    "dem_real": true,
+    "archaeological_features": 2,
+    "slope_patterns": {
+      "regularity": 0.5862974524497986,
+      "artificial_modification": 0.75,
+      "systematic_organization": 0.003948850557208061
+    },
+    "topographic_indicators": {
+      "settlement_suitability": 0.5364197530864198,
+      "defensive_advantage": 0.5452268518518519,
+      "resource_access": 0.2447211742401123,
+      "cultural_landscape": 0.30000000000000004
+    },
+    "thermal": 0.0,
+    "thermal_real": false,
+    "spatial": 0.5948644876480103,
+    "spatial_real": true,
+    "soil": 0.0,
+    "soil_real": true,
+    "ndvi": 0.14455383414884965,
+    "ndvi_real": true,
+    "spectral": 0.20607882140732955,
+    "spectral_real": true,
+    "gedi": 0.134,
+    "gedi_real": true,
+    "gedi_data_type": "REAL",
+    "ethnobotanical": 0.05,
+    "hydro": 0.827,
+    "tom": 0.2807910214478069,
+    "tom_real": true,
+    "hydro_enhanced": true,
+    "gpt_vision_enhancement": {
+      "vision_enabled": true,
+      "original_confidence": 2.893431998293998,
+      "coordinates": [
+        -11.2,
+        -62.0
+      ],
+      "method_count": 29,
+      "cross_method_validation": {
+        "cross_validation_result": "FALSE_POSITIVE",
+        "validation_confidence": 0.15,
+        "comprehensive_analysis": "Based on the provided summary and cross-validation framework, let's evaluate the archaeological method results at the specified coordinates in the Amazon Basin.\n\n### Overall Validation\nGiven the data:\n\n- High Confidence Methods: None specified in the summary.\n- Convergent Methods: None specified above the >0.2 threshold.\n- Divergent Methods: All identified methods (geometric_patterns, slope_patterns, topographic_indicators) scored 0.000, indicating no detection.\n\n**Overall Validation:** FALSE_POSITIVE\n\n### Cross-Validation Confidence\nGiven that all the identified methods (geometric_patterns, slope_patterns, topographic_indicators) scored 0.000 and no convergent methods are above the threshold, the cross-validation confidence is very low.\n\n**Cross-validation Confidence:** 10\n\n### Method Agreement Analysis\n- **Method Convergence:** There is no convergence, as no methods scored above 0.2. This suggests a lack of agreement among the methods.\n- **Geographical Consistency:** Lacking due to the absence of high-confidence methods.\n- **Data Type Agreement:** With scores of 0.000 for all methods, there is no agreement among different data types (satellite, elevation, vegetation).\n\n### False Positive Risk Assessment\n- **Natural Phenomena Explanation:** The score of 0.000 across divergent methods suggests that detected patterns could be noise or artifacts rather than true archaeological features.\n- **Too Good to Be True:** Not applicable since there are no high scores.\n- **Contradictory Methods:** The unanimous low scores suggest a lack of artificial structures or features rather than natural causes for positive results.\n\n### Recommended Action\nGiven the low scores and the lack of method agreement, the likelihood of these results being valid indicators of archaeological features is minimal.\n\n**Recommended Action:** DISMISS\n\nThis analysis indicates that the evidence at the specified coordinates does not meet any criteria for validity, leading to a recommendation against further investigation based on these results.",
+        "method_count": 29,
+        "method_agreement": "moderate",
+        "false_positive_risk": "medium",
+        "recommended_action": "MONITOR",
+        "coordinates": [
+          -11.2,
+          -62.0
+        ],
+        "analysis_type": "cross_method_validation"
+      },
+      "cross_validation_adjustment": -0.15,
+      "individual_validations": {
+        "methods_validated": 0,
+        "methods_confirmed": 0,
+        "validation_rate": 0,
+        "validations": {}
+      },
+      "final_analysis": {
+        "ai_overall_assessment": 0.18,
+        "comprehensive_analysis": "AI result analysis disabled - using simulation",
+        "method_count": 4,
+        "analysis_type": "simulation",
+        "ai_recommendations": []
+      },
+      "final_analysis_adjustment": 0.009,
+      "enhanced_confidence": 1,
+      "total_vision_adjustment": -0.141,
+      "comprehensive_assessment": {
+        "classification": "HIGH_CONFIDENCE_DISCOVERY",
+        "recommendation": "IMMEDIATE_FIELD_INVESTIGATION",
+        "confidence_change": -1.8934319982939982,
+        "confidence_direction": "DECREASED",
+        "validation_status": "NONE",
+        "vision_impact": "SIGNIFICANT",
+        "false_positive_risk": "medium",
+        "methods_analyzed": 29,
+        "vision_features_used": [
+          "cross_method_intelligence",
+          "comprehensive_result_analysis"
+        ],
+        "coordinates": [
+          -11.2,
+          -62.0
+        ]
+      }
+    },
+    "original_total_confidence": 2.893431998293998,
+    "enhanced_total_confidence": 1,
+    "ai": 0.85,
+    "ai_real": false,
+    "final_probability": 0.44354166666666667
+  },
+  "analysis_enhancements": {
+    "tile_analysis": {
+      "center_tile": {
+        "coordinates": [
+          -11.2,
+          -62.0
+        ],
+        "probability": 0.44354166666666667,
+        "analysis_type": "detailed"
+      },
+      "surrounding_tiles": [
+        {
+          "coordinates": [
+            -11.209009009009009,
+            -62.009009009009006
+          ],
+          "offset": [
+            -1,
+            -1
+          ],
+          "estimated_probability": 0.18065312445916046,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.209009009009009,
+            -62.0
+          ],
+          "offset": [
+            -1,
+            0
+          ],
+          "estimated_probability": 0.1665285365077344,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.209009009009009,
+            -61.990990990990994
+          ],
+          "offset": [
+            -1,
+            1
+          ],
+          "estimated_probability": 0.16091806292783672,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.2,
+            -62.009009009009006
+          ],
+          "offset": [
+            0,
+            -1
+          ],
+          "estimated_probability": 0.1264088551095673,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.2,
+            -61.990990990990994
+          ],
+          "offset": [
+            0,
+            1
+          ],
+          "estimated_probability": 0.15444278050714444,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.19099099099099,
+            -62.009009009009006
+          ],
+          "offset": [
+            1,
+            -1
+          ],
+          "estimated_probability": 0.19820519810027165,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.19099099099099,
+            -62.0
+          ],
+          "offset": [
+            1,
+            0
+          ],
+          "estimated_probability": 0.07712507878264427,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            -11.19099099099099,
+            -61.990990990990994
+          ],
+          "offset": [
+            1,
+            1
+          ],
+          "estimated_probability": 0.16930894445072542,
+          "analysis_type": "simplified"
+        }
+      ],
+      "spatial_patterns": {
+        "mean_surrounding_probability": 0.15419882260563558,
+        "max_surrounding_probability": 0.19820519810027165,
+        "min_surrounding_probability": 0.07712507878264427,
+        "probability_variance": 0.0012218225980129014,
+        "center_vs_surrounding_ratio": 2.876427064563438,
+        "spatial_clustering_indicator": "high"
+      },
+      "tile_metadata": {
+        "tile_size_km": 1.0,
+        "grid_size": "3x3",
+        "analysis_timestamp": "2025-06-29T18:51:32.384834"
+      }
+    }
+  },
+  "export_timestamp": "2025-06-29T18:51:32.476564",
+  "export_format_version": "2.0_enhanced"
+}

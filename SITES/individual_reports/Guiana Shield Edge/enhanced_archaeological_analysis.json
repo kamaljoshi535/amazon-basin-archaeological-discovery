@@ -1,0 +1,276 @@
+{
+  "probability": 0.44811666666666666,
+  "classification": "DISCOVERY",
+  "analysis_timestamp": "2025-06-29T20:37:56.588969",
+  "site_info": {
+    "name": "Guiana Shield Edge",
+    "coords": [
+      1.0,
+      -60.0
+    ],
+    "category": "discovery_target",
+    "description": "Guiana Shield-Amazon transition",
+    "cultural_context": "Potential settlements",
+    "archaeological_evidence": "Unknown - expansion target",
+    "expected_geometric": "unknown",
+    "expected_dem": "unknown",
+    "priority": "discovery_potential",
+    "test_requirement": "discovery_potential",
+    "checkpoint_priority": "mock",
+    "source": "Grid analysis"
+  },
+  "is_discovery": true,
+  "visualization_metadata": {
+    "timestamp": "2025-06-29T20:37:56.589071",
+    "enabled_features": [
+      "tile_search",
+      "interactive_maps",
+      "visual_docs",
+      "terrain_3d"
+    ],
+    "processing_time": 0
+  },
+  "coordinates": [
+    1.0,
+    -60.0
+  ],
+  "method_scores_detailed": {
+    "geometric": 0.768501465484843,
+    "geometric_real": true,
+    "hough_lines": 16435,
+    "geometric_patterns": {
+      "parallel_score": 0.921,
+      "intersection_score": 0.95,
+      "regularity_score": 0.0,
+      "geometric_complexity": 0.875,
+      "archaeological_indicators": {
+        "enclosures": 0.8625651982211173,
+        "roads": 0.8613210997777145,
+        "defensive_works": 0.8645294027811377,
+        "plaza_boundaries": 0.7889854332641016
+      }
+    },
+    "analysis_method": "real_opentopography_srtm",
+    "working_url": "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2024-07-01/250m/6/31/21.jpg",
+    "lidar": 0.5089786249334859,
+    "dem_real": true,
+    "archaeological_features": 3,
+    "slope_patterns": {
+      "regularity": 0.5565054416656494,
+      "artificial_modification": 0.75,
+      "systematic_organization": 0.003642706200480461
+    },
+    "topographic_indicators": {
+      "settlement_suitability": 0.6146527777777777,
+      "defensive_advantage": 0.5489953703703704,
+      "resource_access": 0.476907879114151,
+      "cultural_landscape": 0.30000000000000004
+    },
+    "thermal": 0.0,
+    "thermal_real": false,
+    "spatial": 0.5933874249458313,
+    "spatial_real": true,
+    "soil": 0.0,
+    "soil_real": true,
+    "ndvi": 0.15983017847681796,
+    "ndvi_real": true,
+    "spectral": 0.2888786654490638,
+    "spectral_real": true,
+    "gedi": 0.134,
+    "gedi_real": true,
+    "gedi_data_type": "REAL",
+    "ethnobotanical": 0.05,
+    "hydro": 0.805,
+    "tom": 0.26392042291554724,
+    "tom_real": true,
+    "hydro_enhanced": true,
+    "gpt_vision_enhancement": {
+      "vision_enabled": true,
+      "original_confidence": 2.979109357259758,
+      "coordinates": [
+        1.0,
+        -60.0
+      ],
+      "method_count": 29,
+      "cross_method_validation": {
+        "cross_validation_result": "STRONG",
+        "validation_confidence": 0.25,
+        "comprehensive_analysis": "## Overall Validation: FALSE_POSITIVE\n\n### Cross-Validation Confidence: 15\n\n### Method Agreement Analysis:\n1. **Method Convergence**:\n   - No consistent convergence among methods; all methods listed as divergent with scores of 0.000.\n   - Lack of agreement among multiple data types (satellite, elevation, vegetation), indicating significant divergence or absence of identifiable archaeological features consistent with high-confidence methods.\n\n2. **False Positive Detection**:\n   - The \"geometric_patterns,\" \"slope_patterns,\" and \"topographic_indicators\" methods have reported scores of 0.000, suggesting extremely low confidence in the presence of archaeological features.\n   - This lack of convergence and perfect zero scores strongly suggests that these results might be false positives.\n   - Given the discrepancies and lack of supporting evidence, natural phenomena could easily explain the detected patterns, and the methods' findings may be attributed to non-anthropogenic causes.\n\n3. **Pattern Consistency**:\n   - The absence of agreement between different analytical methods implies a weak or nonexistent correlation between geometric, NDVI, and elevation data at the specified coordinates.\n   - No evidence of co-location between spectral and thermal anomalies, further undermining the assertion of archaeological features.\n   - GEDI forest structure analysis lacks confirmation or corroboration for patterns detected by other methods, suggesting a lack of consistent findings across multidisciplinary data sources.\n\n### False Positive Risk Assessment:\n- High risk of false positives due to divergent methods all reporting the lowest possible confidence scores.\n- Natural phenomena such as vegetation patterns or natural terrain formations likely account for observed features, as opposed to human-made structures.\n- The absence of strong evidence from high-confidence methods points to the need for cautious interpretation and avoidance of overstatement regarding presence of structures/features.\n\n### Recommended Action: DISMISS\n- Given the evidence presented, it is recommended to dismiss further investigation at this time.\n- Monitor the site for future findings with improved methods or additional evidence that may substantiate potential claims of archaeological relevance.\n- Reassess if new information or technological advances in detection methods become available, warranting a reevaluation of the site.",
+        "method_count": 29,
+        "method_agreement": "high",
+        "false_positive_risk": "low",
+        "recommended_action": "INVESTIGATE",
+        "coordinates": [
+          1.0,
+          -60.0
+        ],
+        "analysis_type": "cross_method_validation"
+      },
+      "cross_validation_adjustment": 0.1,
+      "individual_validations": {
+        "methods_validated": 0,
+        "methods_confirmed": 0,
+        "validation_rate": 0,
+        "validations": {}
+      },
+      "final_analysis": {
+        "ai_overall_assessment": 0.18,
+        "comprehensive_analysis": "AI result analysis disabled - using simulation",
+        "method_count": 4,
+        "analysis_type": "simulation",
+        "ai_recommendations": []
+      },
+      "final_analysis_adjustment": 0.009,
+      "enhanced_confidence": 1,
+      "total_vision_adjustment": 0.109,
+      "comprehensive_assessment": {
+        "classification": "HIGH_CONFIDENCE_DISCOVERY",
+        "recommendation": "IMMEDIATE_FIELD_INVESTIGATION",
+        "confidence_change": -1.979109357259758,
+        "confidence_direction": "DECREASED",
+        "validation_status": "CROSS_VALIDATED",
+        "vision_impact": "SIGNIFICANT",
+        "false_positive_risk": "low",
+        "methods_analyzed": 29,
+        "vision_features_used": [
+          "cross_method_intelligence",
+          "comprehensive_result_analysis"
+        ],
+        "coordinates": [
+          1.0,
+          -60.0
+        ]
+      }
+    },
+    "original_total_confidence": 2.979109357259758,
+    "enhanced_total_confidence": 1,
+    "ai": 0.85,
+    "ai_real": false,
+    "final_probability": 0.44811666666666666
+  },
+  "analysis_enhancements": {
+    "tile_analysis": {
+      "center_tile": {
+        "coordinates": [
+          1.0,
+          -60.0
+        ],
+        "probability": 0.44811666666666666,
+        "analysis_type": "detailed"
+      },
+      "surrounding_tiles": [
+        {
+          "coordinates": [
+            0.990990990990991,
+            -60.009009009009006
+          ],
+          "offset": [
+            -1,
+            -1
+          ],
+          "estimated_probability": 0.18251650755597734,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            0.990990990990991,
+            -60.0
+          ],
+          "offset": [
+            -1,
+            0
+          ],
+          "estimated_probability": 0.1682462286926615,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            0.990990990990991,
+            -59.990990990990994
+          ],
+          "offset": [
+            -1,
+            1
+          ],
+          "estimated_probability": 0.1625778847511788,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            1.0,
+            -60.009009009009006
+          ],
+          "offset": [
+            0,
+            -1
+          ],
+          "estimated_probability": 0.12771272474705253,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            1.0,
+            -59.990990990990994
+          ],
+          "offset": [
+            0,
+            1
+          ],
+          "estimated_probability": 0.1560358117236484,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            1.009009009009009,
+            -60.009009009009006
+          ],
+          "offset": [
+            1,
+            -1
+          ],
+          "estimated_probability": 0.20024962560157836,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            1.009009009009009,
+            -60.0
+          ],
+          "offset": [
+            1,
+            0
+          ],
+          "estimated_probability": 0.07792060096679967,
+          "analysis_type": "simplified"
+        },
+        {
+          "coordinates": [
+            1.009009009009009,
+            -59.990990990990994
+          ],
+          "offset": [
+            1,
+            1
+          ],
+          "estimated_probability": 0.1710553157142942,
+          "analysis_type": "simplified"
+        }
+      ],
+      "spatial_patterns": {
+        "mean_surrounding_probability": 0.15578933746914886,
+        "max_surrounding_probability": 0.20024962560157836,
+        "min_surrounding_probability": 0.07792060096679967,
+        "probability_variance": 0.001247158062822743,
+        "center_vs_surrounding_ratio": 2.8764270645634378,
+        "spatial_clustering_indicator": "high"
+      },
+      "tile_metadata": {
+        "tile_size_km": 1.0,
+        "grid_size": "3x3",
+        "analysis_timestamp": "2025-06-29T20:37:56.589642"
+      }
+    }
+  },
+  "export_timestamp": "2025-06-29T20:37:56.685838",
+  "export_format_version": "2.0_enhanced"
+}

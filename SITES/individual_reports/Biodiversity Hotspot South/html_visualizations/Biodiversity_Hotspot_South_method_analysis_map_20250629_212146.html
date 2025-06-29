@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_534f4b2d2b010b187ca122d67ccfb4b3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_534f4b2d2b010b187ca122d67ccfb4b3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_534f4b2d2b010b187ca122d67ccfb4b3 = L.map(
+                "map_534f4b2d2b010b187ca122d67ccfb4b3",
+                {
+                    center: [-8.0, -65.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4991a74993ed9df147bc450a50f7ef3c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4991a74993ed9df147bc450a50f7ef3c.addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var marker_c8758c3fe128d80f456a08af46d2c073 = L.marker(
+                [-8.0009, -65.0009],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_dca28a101aa6ea8f0d62bfd6799c5638 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7515a1efbd54609982373b84dc2146c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74f55f90767d99f6fd3bfe19c7a99dce = $(`<div id="html_74f55f90767d99f6fd3bfe19c7a99dce" style="width: 100.0%; height: 100.0%;"><b>Geometric</b><br>Score: 0.768<br>Confidence: High</div>`)[0];
+                popup_f7515a1efbd54609982373b84dc2146c.setContent(html_74f55f90767d99f6fd3bfe19c7a99dce);
+            
+        
+
+        marker_c8758c3fe128d80f456a08af46d2c073.bindPopup(popup_f7515a1efbd54609982373b84dc2146c)
+        ;
+
+        
+    
+    
+            marker_c8758c3fe128d80f456a08af46d2c073.bindTooltip(
+                `<div>
+                     Geometric: 0.768
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c8758c3fe128d80f456a08af46d2c073.setIcon(icon_dca28a101aa6ea8f0d62bfd6799c5638);
+            
+    
+            var marker_557a02665dd73a08d2a51a2091b29c98 = L.marker(
+                [-8.0001, -65.0001],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_84f9f4f0b9223e0dc19d74126b75eb36 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfc1e0f08ca7ced57052b97f17831b97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a653bd1e2394d8f92af74cc576f91bc0 = $(`<div id="html_a653bd1e2394d8f92af74cc576f91bc0" style="width: 100.0%; height: 100.0%;"><b>Geometric Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_cfc1e0f08ca7ced57052b97f17831b97.setContent(html_a653bd1e2394d8f92af74cc576f91bc0);
+            
+        
+
+        marker_557a02665dd73a08d2a51a2091b29c98.bindPopup(popup_cfc1e0f08ca7ced57052b97f17831b97)
+        ;
+
+        
+    
+    
+            marker_557a02665dd73a08d2a51a2091b29c98.bindTooltip(
+                `<div>
+                     Geometric Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_557a02665dd73a08d2a51a2091b29c98.setIcon(icon_84f9f4f0b9223e0dc19d74126b75eb36);
+            
+    
+            var marker_585ce87888f562895d68757a3aba721d = L.marker(
+                [-8.0021, -65.0021],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_1ecea6da51c53c7d590b343bcb64b485 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1dca08a6c0124b242b76f2e960db30e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_daf4c6aec7e363f32287ef53c8a7695b = $(`<div id="html_daf4c6aec7e363f32287ef53c8a7695b" style="width: 100.0%; height: 100.0%;"><b>Hough Lines</b><br>Score: 16128.000<br>Confidence: High</div>`)[0];
+                popup_f1dca08a6c0124b242b76f2e960db30e.setContent(html_daf4c6aec7e363f32287ef53c8a7695b);
+            
+        
+
+        marker_585ce87888f562895d68757a3aba721d.bindPopup(popup_f1dca08a6c0124b242b76f2e960db30e)
+        ;
+
+        
+    
+    
+            marker_585ce87888f562895d68757a3aba721d.bindTooltip(
+                `<div>
+                     Hough Lines: 16128.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_585ce87888f562895d68757a3aba721d.setIcon(icon_1ecea6da51c53c7d590b343bcb64b485);
+            
+    
+            var marker_0edcacceef5c97bc8b0686bbafb9f7d5 = L.marker(
+                [-8.0031, -65.0031],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_496c06bd9414a8702859feace10a0ae7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b29d69fe50b82771bf101c3ec02af626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0627814ce0e181713fce06a74b68ccc0 = $(`<div id="html_0627814ce0e181713fce06a74b68ccc0" style="width: 100.0%; height: 100.0%;"><b>Lidar</b><br>Score: 0.416<br>Confidence: Medium</div>`)[0];
+                popup_b29d69fe50b82771bf101c3ec02af626.setContent(html_0627814ce0e181713fce06a74b68ccc0);
+            
+        
+
+        marker_0edcacceef5c97bc8b0686bbafb9f7d5.bindPopup(popup_b29d69fe50b82771bf101c3ec02af626)
+        ;
+
+        
+    
+    
+            marker_0edcacceef5c97bc8b0686bbafb9f7d5.bindTooltip(
+                `<div>
+                     Lidar: 0.416
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0edcacceef5c97bc8b0686bbafb9f7d5.setIcon(icon_496c06bd9414a8702859feace10a0ae7);
+            
+    
+            var marker_c476da50b89767b5d14cce4591eb9341 = L.marker(
+                [-8.0029, -65.0029],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_17c06c602c172386093c6eab2249353b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e9ba6722af1da2dc02ccf26f16780ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_462ddd67f8d110994e2f6814578378fb = $(`<div id="html_462ddd67f8d110994e2f6814578378fb" style="width: 100.0%; height: 100.0%;"><b>Dem Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_4e9ba6722af1da2dc02ccf26f16780ef.setContent(html_462ddd67f8d110994e2f6814578378fb);
+            
+        
+
+        marker_c476da50b89767b5d14cce4591eb9341.bindPopup(popup_4e9ba6722af1da2dc02ccf26f16780ef)
+        ;
+
+        
+    
+    
+            marker_c476da50b89767b5d14cce4591eb9341.bindTooltip(
+                `<div>
+                     Dem Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c476da50b89767b5d14cce4591eb9341.setIcon(icon_17c06c602c172386093c6eab2249353b);
+            
+    
+            var marker_1e57d997954b21754c012a990723b348 = L.marker(
+                [-7.9992, -64.9992],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_824d6ea6d4eacbc6c1347c1e13afb4d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4f1761cf0ac82fd3b561046eefd8bad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f61690416ff71210a4fa13ee8e0874e6 = $(`<div id="html_f61690416ff71210a4fa13ee8e0874e6" style="width: 100.0%; height: 100.0%;"><b>Spatial</b><br>Score: 0.574<br>Confidence: High</div>`)[0];
+                popup_c4f1761cf0ac82fd3b561046eefd8bad.setContent(html_f61690416ff71210a4fa13ee8e0874e6);
+            
+        
+
+        marker_1e57d997954b21754c012a990723b348.bindPopup(popup_c4f1761cf0ac82fd3b561046eefd8bad)
+        ;
+
+        
+    
+    
+            marker_1e57d997954b21754c012a990723b348.bindTooltip(
+                `<div>
+                     Spatial: 0.574
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1e57d997954b21754c012a990723b348.setIcon(icon_824d6ea6d4eacbc6c1347c1e13afb4d1);
+            
+    
+            var marker_b7324b11129f654a31634c3191e41774 = L.marker(
+                [-8.0021, -65.0021],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_7866807683d525cd65a59521e2fa8918 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44a76c56cdc847242137ae258bca5bb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d73cb85ee039ebf1eae43fe867ed06a1 = $(`<div id="html_d73cb85ee039ebf1eae43fe867ed06a1" style="width: 100.0%; height: 100.0%;"><b>Spatial Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_44a76c56cdc847242137ae258bca5bb0.setContent(html_d73cb85ee039ebf1eae43fe867ed06a1);
+            
+        
+
+        marker_b7324b11129f654a31634c3191e41774.bindPopup(popup_44a76c56cdc847242137ae258bca5bb0)
+        ;
+
+        
+    
+    
+            marker_b7324b11129f654a31634c3191e41774.bindTooltip(
+                `<div>
+                     Spatial Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b7324b11129f654a31634c3191e41774.setIcon(icon_7866807683d525cd65a59521e2fa8918);
+            
+    
+            var marker_caabca79d87ceb5a418922ea0b62ed2f = L.marker(
+                [-8.0008, -65.0008],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_961f7d1ac0c6a6d53e6dfe5fefba0f62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6e1c1653318eae0d3ae12cc0e72a1dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbf0647b51375332a5c8d9ace568771a = $(`<div id="html_cbf0647b51375332a5c8d9ace568771a" style="width: 100.0%; height: 100.0%;"><b>Soil Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_f6e1c1653318eae0d3ae12cc0e72a1dc.setContent(html_cbf0647b51375332a5c8d9ace568771a);
+            
+        
+
+        marker_caabca79d87ceb5a418922ea0b62ed2f.bindPopup(popup_f6e1c1653318eae0d3ae12cc0e72a1dc)
+        ;
+
+        
+    
+    
+            marker_caabca79d87ceb5a418922ea0b62ed2f.bindTooltip(
+                `<div>
+                     Soil Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_caabca79d87ceb5a418922ea0b62ed2f.setIcon(icon_961f7d1ac0c6a6d53e6dfe5fefba0f62);
+            
+    
+            var marker_77245f97cb101bf2e4babbc6476c7daa = L.marker(
+                [-7.9987, -64.9987],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_3e507e6aba8a922d14ae8787152edcc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88040a2beca5cf68ed713f849a6716f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44380919ff15f8748dd4a633507f197a = $(`<div id="html_44380919ff15f8748dd4a633507f197a" style="width: 100.0%; height: 100.0%;"><b>Ndvi</b><br>Score: 0.145<br>Confidence: Low</div>`)[0];
+                popup_88040a2beca5cf68ed713f849a6716f1.setContent(html_44380919ff15f8748dd4a633507f197a);
+            
+        
+
+        marker_77245f97cb101bf2e4babbc6476c7daa.bindPopup(popup_88040a2beca5cf68ed713f849a6716f1)
+        ;
+
+        
+    
+    
+            marker_77245f97cb101bf2e4babbc6476c7daa.bindTooltip(
+                `<div>
+                     Ndvi: 0.145
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_77245f97cb101bf2e4babbc6476c7daa.setIcon(icon_3e507e6aba8a922d14ae8787152edcc6);
+            
+    
+            var marker_a4534376758a631a1ac71427ad02b6ff = L.marker(
+                [-8.0007, -65.0007],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_7b3a42cdfd4dccc99606712aac34895d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2178fd905b53a3e1c4493dd8a418524 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8552c59022956b859a5dd7d4d1b12133 = $(`<div id="html_8552c59022956b859a5dd7d4d1b12133" style="width: 100.0%; height: 100.0%;"><b>Ndvi Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_f2178fd905b53a3e1c4493dd8a418524.setContent(html_8552c59022956b859a5dd7d4d1b12133);
+            
+        
+
+        marker_a4534376758a631a1ac71427ad02b6ff.bindPopup(popup_f2178fd905b53a3e1c4493dd8a418524)
+        ;
+
+        
+    
+    
+            marker_a4534376758a631a1ac71427ad02b6ff.bindTooltip(
+                `<div>
+                     Ndvi Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a4534376758a631a1ac71427ad02b6ff.setIcon(icon_7b3a42cdfd4dccc99606712aac34895d);
+            
+    
+            var marker_5b1cfac7afc45ce2d10414cc5004f02c = L.marker(
+                [-8.0008, -65.0008],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_2dcd4c7b0d998cf70deea0ae85f24ad5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a630482a66cfba6fce999e42b55a08eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b500b6e7d99ba98bffb1040368878998 = $(`<div id="html_b500b6e7d99ba98bffb1040368878998" style="width: 100.0%; height: 100.0%;"><b>Spectral</b><br>Score: 0.206<br>Confidence: Low</div>`)[0];
+                popup_a630482a66cfba6fce999e42b55a08eb.setContent(html_b500b6e7d99ba98bffb1040368878998);
+            
+        
+
+        marker_5b1cfac7afc45ce2d10414cc5004f02c.bindPopup(popup_a630482a66cfba6fce999e42b55a08eb)
+        ;
+
+        
+    
+    
+            marker_5b1cfac7afc45ce2d10414cc5004f02c.bindTooltip(
+                `<div>
+                     Spectral: 0.206
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b1cfac7afc45ce2d10414cc5004f02c.setIcon(icon_2dcd4c7b0d998cf70deea0ae85f24ad5);
+            
+    
+            var marker_32c16fd147ce64eba79b8e0c9fee62ef = L.marker(
+                [-8.0015, -65.0015],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_c65a8946918075e5a1d8a18f68f83838 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d2cb08f6a11c1a24dfa3a11929770c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_042684c1c74b3fbade2c1f2263fcbf15 = $(`<div id="html_042684c1c74b3fbade2c1f2263fcbf15" style="width: 100.0%; height: 100.0%;"><b>Spectral Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_7d2cb08f6a11c1a24dfa3a11929770c0.setContent(html_042684c1c74b3fbade2c1f2263fcbf15);
+            
+        
+
+        marker_32c16fd147ce64eba79b8e0c9fee62ef.bindPopup(popup_7d2cb08f6a11c1a24dfa3a11929770c0)
+        ;
+
+        
+    
+    
+            marker_32c16fd147ce64eba79b8e0c9fee62ef.bindTooltip(
+                `<div>
+                     Spectral Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_32c16fd147ce64eba79b8e0c9fee62ef.setIcon(icon_c65a8946918075e5a1d8a18f68f83838);
+            
+    
+            var marker_6108556aef96774f632242e267d33314 = L.marker(
+                [-8.0031, -65.0031],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_cca663c82a4f91d29f4640766e19a99d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8856f61a05a9c3510545aa40ea780cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2a82e05a03245547c841e4081b765f7 = $(`<div id="html_f2a82e05a03245547c841e4081b765f7" style="width: 100.0%; height: 100.0%;"><b>Gedi</b><br>Score: 0.134<br>Confidence: Low</div>`)[0];
+                popup_8856f61a05a9c3510545aa40ea780cab.setContent(html_f2a82e05a03245547c841e4081b765f7);
+            
+        
+
+        marker_6108556aef96774f632242e267d33314.bindPopup(popup_8856f61a05a9c3510545aa40ea780cab)
+        ;
+
+        
+    
+    
+            marker_6108556aef96774f632242e267d33314.bindTooltip(
+                `<div>
+                     Gedi: 0.134
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6108556aef96774f632242e267d33314.setIcon(icon_cca663c82a4f91d29f4640766e19a99d);
+            
+    
+            var marker_c71a318984ed350e631f04dd6c862130 = L.marker(
+                [-8.0048, -65.0048],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_d59050ff48089bf91b51f53932e37ce9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97d9c064bd1c243ac3e12235e30cb582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4446aff008b6fd18bd521d683cf198aa = $(`<div id="html_4446aff008b6fd18bd521d683cf198aa" style="width: 100.0%; height: 100.0%;"><b>Gedi Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_97d9c064bd1c243ac3e12235e30cb582.setContent(html_4446aff008b6fd18bd521d683cf198aa);
+            
+        
+
+        marker_c71a318984ed350e631f04dd6c862130.bindPopup(popup_97d9c064bd1c243ac3e12235e30cb582)
+        ;
+
+        
+    
+    
+            marker_c71a318984ed350e631f04dd6c862130.bindTooltip(
+                `<div>
+                     Gedi Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c71a318984ed350e631f04dd6c862130.setIcon(icon_d59050ff48089bf91b51f53932e37ce9);
+            
+    
+            var marker_2cd66ff2bce0b23270b94d929de4805d = L.marker(
+                [-8.0017, -65.0017],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_ba9e1e3a6bbfa8e389f57ed440bdc1d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caab359ae0c864219487f0f2a8f1c633 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24c8626c3825d40bf1c50298839c7d47 = $(`<div id="html_24c8626c3825d40bf1c50298839c7d47" style="width: 100.0%; height: 100.0%;"><b>Hydro</b><br>Score: 0.825<br>Confidence: High</div>`)[0];
+                popup_caab359ae0c864219487f0f2a8f1c633.setContent(html_24c8626c3825d40bf1c50298839c7d47);
+            
+        
+
+        marker_2cd66ff2bce0b23270b94d929de4805d.bindPopup(popup_caab359ae0c864219487f0f2a8f1c633)
+        ;
+
+        
+    
+    
+            marker_2cd66ff2bce0b23270b94d929de4805d.bindTooltip(
+                `<div>
+                     Hydro: 0.825
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2cd66ff2bce0b23270b94d929de4805d.setIcon(icon_ba9e1e3a6bbfa8e389f57ed440bdc1d8);
+            
+    
+            var marker_b880a8c3894f182d3c5a5096973918ef = L.marker(
+                [-8.0039, -65.0039],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_57e14bcc69faff77d24b8ed977290cd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_967d99256cc611ee8dd12bf7e071bf54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_323cea1072779c8724f988544f5d4dbd = $(`<div id="html_323cea1072779c8724f988544f5d4dbd" style="width: 100.0%; height: 100.0%;"><b>Tom</b><br>Score: 0.281<br>Confidence: Low</div>`)[0];
+                popup_967d99256cc611ee8dd12bf7e071bf54.setContent(html_323cea1072779c8724f988544f5d4dbd);
+            
+        
+
+        marker_b880a8c3894f182d3c5a5096973918ef.bindPopup(popup_967d99256cc611ee8dd12bf7e071bf54)
+        ;
+
+        
+    
+    
+            marker_b880a8c3894f182d3c5a5096973918ef.bindTooltip(
+                `<div>
+                     Tom: 0.281
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b880a8c3894f182d3c5a5096973918ef.setIcon(icon_57e14bcc69faff77d24b8ed977290cd7);
+            
+    
+            var marker_ef40c88eee57a7302e8837ace624a8ef = L.marker(
+                [-7.996, -64.996],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_f0d61c2430fbd4cd3149d5721d728fde = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b720b7c638f22752baef91838242d58e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd7fa228f418654188f57f3c535bed2e = $(`<div id="html_cd7fa228f418654188f57f3c535bed2e" style="width: 100.0%; height: 100.0%;"><b>Tom Real</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_b720b7c638f22752baef91838242d58e.setContent(html_cd7fa228f418654188f57f3c535bed2e);
+            
+        
+
+        marker_ef40c88eee57a7302e8837ace624a8ef.bindPopup(popup_b720b7c638f22752baef91838242d58e)
+        ;
+
+        
+    
+    
+            marker_ef40c88eee57a7302e8837ace624a8ef.bindTooltip(
+                `<div>
+                     Tom Real: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ef40c88eee57a7302e8837ace624a8ef.setIcon(icon_f0d61c2430fbd4cd3149d5721d728fde);
+            
+    
+            var marker_b7b5b0bd8855b0b87a5a2e6bb8d871a5 = L.marker(
+                [-7.9958, -64.9958],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_054b672858bd1658001784b09dda2ed9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c191cdb59a226f47be6fa6097b6880d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b26cea1d826766c7550d2d332d9dbfb1 = $(`<div id="html_b26cea1d826766c7550d2d332d9dbfb1" style="width: 100.0%; height: 100.0%;"><b>Hydro Enhanced</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_c191cdb59a226f47be6fa6097b6880d3.setContent(html_b26cea1d826766c7550d2d332d9dbfb1);
+            
+        
+
+        marker_b7b5b0bd8855b0b87a5a2e6bb8d871a5.bindPopup(popup_c191cdb59a226f47be6fa6097b6880d3)
+        ;
+
+        
+    
+    
+            marker_b7b5b0bd8855b0b87a5a2e6bb8d871a5.bindTooltip(
+                `<div>
+                     Hydro Enhanced: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b7b5b0bd8855b0b87a5a2e6bb8d871a5.setIcon(icon_054b672858bd1658001784b09dda2ed9);
+            
+    
+            var marker_fcbaf42f50a70c5ffe880bfeb6d4cd84 = L.marker(
+                [-7.9993, -64.9993],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_90b6be61f1a795216548f9706f2e456a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_559f9655b84578ffd8b0bf76cfef5825 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b2fed34a5d4e3cb95f7743e564fee4c = $(`<div id="html_1b2fed34a5d4e3cb95f7743e564fee4c" style="width: 100.0%; height: 100.0%;"><b>Original Total Confidence</b><br>Score: 2.825<br>Confidence: High</div>`)[0];
+                popup_559f9655b84578ffd8b0bf76cfef5825.setContent(html_1b2fed34a5d4e3cb95f7743e564fee4c);
+            
+        
+
+        marker_fcbaf42f50a70c5ffe880bfeb6d4cd84.bindPopup(popup_559f9655b84578ffd8b0bf76cfef5825)
+        ;
+
+        
+    
+    
+            marker_fcbaf42f50a70c5ffe880bfeb6d4cd84.bindTooltip(
+                `<div>
+                     Original Total Confidence: 2.825
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fcbaf42f50a70c5ffe880bfeb6d4cd84.setIcon(icon_90b6be61f1a795216548f9706f2e456a);
+            
+    
+            var marker_faa3e3109a5aea7ccbce605fa14bbff0 = L.marker(
+                [-8.002, -65.002],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_7d74745dd9416a68d31be2f6cf0d9571 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e29d1e415a1937beaae15d1c3d7772d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_314fad4f29ec76fea24b7ad1b84c9741 = $(`<div id="html_314fad4f29ec76fea24b7ad1b84c9741" style="width: 100.0%; height: 100.0%;"><b>Enhanced Total Confidence</b><br>Score: 1.000<br>Confidence: High</div>`)[0];
+                popup_4e29d1e415a1937beaae15d1c3d7772d.setContent(html_314fad4f29ec76fea24b7ad1b84c9741);
+            
+        
+
+        marker_faa3e3109a5aea7ccbce605fa14bbff0.bindPopup(popup_4e29d1e415a1937beaae15d1c3d7772d)
+        ;
+
+        
+    
+    
+            marker_faa3e3109a5aea7ccbce605fa14bbff0.bindTooltip(
+                `<div>
+                     Enhanced Total Confidence: 1.000
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_faa3e3109a5aea7ccbce605fa14bbff0.setIcon(icon_7d74745dd9416a68d31be2f6cf0d9571);
+            
+    
+            var marker_86b00e16ee30ec924f7e6ffa60737bdd = L.marker(
+                [-7.9955, -64.9955],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_eadf7f3a4a29f8e1506083eda25da11d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8f143856a87682c3448c369061bb9e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b8878fd344a2db3444cc00c967c5315 = $(`<div id="html_2b8878fd344a2db3444cc00c967c5315" style="width: 100.0%; height: 100.0%;"><b>Ai</b><br>Score: 0.850<br>Confidence: High</div>`)[0];
+                popup_a8f143856a87682c3448c369061bb9e0.setContent(html_2b8878fd344a2db3444cc00c967c5315);
+            
+        
+
+        marker_86b00e16ee30ec924f7e6ffa60737bdd.bindPopup(popup_a8f143856a87682c3448c369061bb9e0)
+        ;
+
+        
+    
+    
+            marker_86b00e16ee30ec924f7e6ffa60737bdd.bindTooltip(
+                `<div>
+                     Ai: 0.850
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86b00e16ee30ec924f7e6ffa60737bdd.setIcon(icon_eadf7f3a4a29f8e1506083eda25da11d);
+            
+    
+            var marker_cd69fece1ec0caf100a590bbc1c8c28e = L.marker(
+                [-8.0002, -65.0002],
+                {
+}
+            ).addTo(map_534f4b2d2b010b187ca122d67ccfb4b3);
+        
+    
+            var icon_d1cbad2683111b8ffa970548ef56f800 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "cog",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5d3687146772cf6eaf4686e4362eb9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eebeeeb21043b9cf0ec1b0a6638d721a = $(`<div id="html_eebeeeb21043b9cf0ec1b0a6638d721a" style="width: 100.0%; height: 100.0%;"><b>Final Probability</b><br>Score: 0.434<br>Confidence: Medium</div>`)[0];
+                popup_e5d3687146772cf6eaf4686e4362eb9c.setContent(html_eebeeeb21043b9cf0ec1b0a6638d721a);
+            
+        
+
+        marker_cd69fece1ec0caf100a590bbc1c8c28e.bindPopup(popup_e5d3687146772cf6eaf4686e4362eb9c)
+        ;
+
+        
+    
+    
+            marker_cd69fece1ec0caf100a590bbc1c8c28e.bindTooltip(
+                `<div>
+                     Final Probability: 0.434
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd69fece1ec0caf100a590bbc1c8c28e.setIcon(icon_d1cbad2683111b8ffa970548ef56f800);
+            
+</script>
+</html>
