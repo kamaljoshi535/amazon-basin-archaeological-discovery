@@ -43,10 +43,6 @@ This system implements established archaeological remote sensing methodologies:
 ├── 🎯 START_HERE.md ← YOU ARE HERE
 ├── 📄 README.md (detailed writeup)
 │
-├── 📊 RESULTS/ ← Competition results
-│   ├── discoveries/ (high-confidence sites)
-│   ├── statistics/ (analysis metrics)  
-│   └── master_data/ (all site data)
 │
 ├── 🛰️ EVIDENCE/ ← Proof of real data
 │   ├── satellite_data/ (real imagery files)
@@ -60,10 +56,6 @@ This system implements established archaeological remote sensing methodologies:
 ├── 📚 METHODS/ ← Scientific methods
 │   ├── documentation/ (how it works)
 │   └── reproduction_guide/ (reproduce results)
-│
-└── 📖 REFERENCES/ ← Supporting materials
-    ├── literature/ (scientific references)
-    └── system_specs/ (technical details)
 ```
 
 ---
