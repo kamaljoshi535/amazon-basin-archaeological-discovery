@@ -8,7 +8,7 @@
 🗺️ Systematic Grid Coverage: ENABLED
 📅 Satellite Timeline Optimizer: ENABLED
 🚀 EXPANDED MODE: Loaded 62 coordinates from CSV
-✅ Google Earth Engine initialized with project: ai-agent-1743462020247
+✅ Google Earth Engine initialized with project: ai-agent-***
 🏆 ENHANCED PRIZE-WINNING AMAZON BASIN ARCHAEOLOGICAL SYSTEM (11 METHODS)
 🎯 CRITICAL FIX: WORKING SENTINEL-2 + SATELLITE INTEGRATION
 🐛 FIXED: KeyError 'name' issue in export function
