@@ -5,7 +5,6 @@
       "Real satellite data fetching (MODIS/Sentinel-2)",
       "OpenTopography DEM downloads",
       "GBIF biodiversity queries (700+ species records)",
-      "ISRIC SoilGrids API calls",
       "OpenStreetMap water feature detection",
       "Google Earth Engine GEDI forest analysis",
       "OpenAI API integration evidence",
