@@ -57,3 +57,4 @@ All claims in this repository are backed by raw data and auditable files.
 | **METHODOLOGY.md** | Full scientific breakdown of the 12 methods, scoring logic, and reproducibility steps. | Researchers, Reviewers, Academics |
 | **EVIDENCE/processing_logs/** | Raw log file detailing every step, API call, and error for the 62-site analysis. | Technical Auditors |
 | **SITES/individual_reports/** | 36 complete output packages, including all 180 interactive HTML visualizations. | All Users |
+ 
