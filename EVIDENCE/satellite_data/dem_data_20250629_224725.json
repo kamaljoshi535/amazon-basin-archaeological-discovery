@@ -1,0 +1,16 @@
+{
+  "data_type": "dem_data",
+  "shape": [
+    360,
+    360
+  ],
+  "min_elevation": -2.0,
+  "max_elevation": 129.0,
+  "mean_elevation": 60.54380416870117,
+  "timestamp": "20250629_224725",
+  "metadata": {
+    "elevation_range": "-2.0m to 129.0m",
+    "valid_pixels": "129600/129600",
+    "source": "OpenTopography_SRTMGL1"
+  }
+}

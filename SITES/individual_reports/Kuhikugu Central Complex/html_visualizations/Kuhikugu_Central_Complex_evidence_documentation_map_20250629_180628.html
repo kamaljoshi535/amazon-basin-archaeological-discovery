@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c101cc9c93442907f84a2ac720262f1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c101cc9c93442907f84a2ac720262f1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c101cc9c93442907f84a2ac720262f1 = L.map(
+                "map_7c101cc9c93442907f84a2ac720262f1",
+                {
+                    center: [-11.8, -53.1],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fd4c49d6d2c4132d367b6d96119ad895 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fd4c49d6d2c4132d367b6d96119ad895.addTo(map_7c101cc9c93442907f84a2ac720262f1);
+        
+    
+            var marker_188d92fe02ab6283061661541cb64b8b = L.marker(
+                [-11.8, -53.1],
+                {
+}
+            ).addTo(map_7c101cc9c93442907f84a2ac720262f1);
+        
+    
+            var icon_9682bac208da55a148ba1c2fc366afd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "file-text",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2e332ed40f3d384c5dacb974ace65d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7c2a539c07ad1edbcff37325afa1d17 = $(`<div id="html_e7c2a539c07ad1edbcff37325afa1d17" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h5>📊 Geometric Evidence</h5>         <p><b>Real Data Calls:</b> 4</p><p><b>Patterns Found:</b> 4</p></div></div>`)[0];
+                popup_a2e332ed40f3d384c5dacb974ace65d8.setContent(html_e7c2a539c07ad1edbcff37325afa1d17);
+            
+        
+
+        marker_188d92fe02ab6283061661541cb64b8b.bindPopup(popup_a2e332ed40f3d384c5dacb974ace65d8)
+        ;
+
+        
+    
+    
+            marker_188d92fe02ab6283061661541cb64b8b.bindTooltip(
+                `<div>
+                     Evidence: Geometric
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_188d92fe02ab6283061661541cb64b8b.setIcon(icon_9682bac208da55a148ba1c2fc366afd2);
+            
+</script>
+</html>
