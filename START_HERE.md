@@ -55,7 +55,7 @@ Amazon_Basin_Archaeological_Discovery/
 | :--- | :--- | :--- |
 | **Total Sites Analyzed:** 62 | **O3-Mini Total Tokens:** 105,109 | **Data Source Legend:** |
 | **High-Confidence Targets:** 7 (≥60%) | **O3-Mini Reasoning Tokens:** 24,960 | **[REAL]**: Live sensor/DB data |
-| **Discovery Rate:** 11.3% | **Total API Calls:** 62 (100% success) | **[DEM-REAL]**: OpenTopography data |
+| **Discovery Rate:** 11.3% | **Total API Calls:** 62 (100% Execution) | **[DEM-REAL]**: OpenTopography data |
 | **Known Sites Verified:** 10 | **Total AI Cost:** **$21.02** | **[AI-REAL]**: Real OpenAI API calls |
 | **Ground Truth Validated:** 62/62 | **Cost per Site:** **$0.34** | **[SIM]**: Simulated/fallback data |
 | **Complete Evidence Packages:** 36 | **Hough Lines Detected:** 929,906 | --- |
@@ -125,6 +125,8 @@ This system is built on **complete transparency**. Every method in every report 
 6.  **NDVI Analysis (12.2% avg)** - **[REAL]** (Vegetation index)
 7.  **Thermal Analysis (0.0% avg)** - **[SIM]**
 8.  **Soil Analysis (0.0% avg)** - **[REAL]** (Blocked by canopy, 0.0% score)
+   
+**Note on Data Granularity:** While LiDAR/DEM and Hydro data are unique to every coordinate, Geometric/Satellite analysis utilizes **Regional Baseline Imagery** in areas where persistent cloud cover or API limits prevented high-resolution retrieval. See `limitations` in the White Paper for details.
 
 **Amazon-Specific Methods (3):**
 9\.  **Hydro Management (83.8% avg)** - **[REAL]** (HydroRIVERS)
